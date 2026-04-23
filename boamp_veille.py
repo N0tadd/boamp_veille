@@ -151,7 +151,7 @@ if __name__ == "__main__":
 
     verifier()
 
-    schedule.every(15).minutes.do(verifier)
+    schedule.every(15).minutes.do(verifier) # à personnaliser
 
     while True:
         try:
