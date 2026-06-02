@@ -12,7 +12,7 @@ import schedule
 import time
 from datetime import date
 
-# ─── CONFIG ───────────────────────────────────────────────────────────────────
+# CONFIG 
 
 LOG_FILE         = os.path.join(os.path.dirname(os.path.abspath(__file__)), "boamp_log.txt")
 DISCORD_WEBHOOK_URL = "mettre le lien de son webhook discord ici"
@@ -145,7 +145,7 @@ def verifier():
 # ─── LANCEMENT ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print("🚀 Veille BOAMP démarrée — vérification toutes les 15 minutes")
+    print("Veille BOAMP démarrée — vérification toutes les 15 minutes")
     print(f"   Webhook : {DISCORD_WEBHOOK_URL[:50]}...")
     print()
 
